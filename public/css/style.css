@@ -1,0 +1,1053 @@
+/*
+Name: Intuitive Inventions
+Version: 1.0
+Author: Akhilesh Mantripragada
+Author URI: http://www.intuitiveinventions.com
+*/
+
+
+/* Table of Contents
+--------------------------------------------------------------
+1.Typography
+2.General Styles
+3.Buttons
+4.Content Styles
+5.Parallax Style
+6.Navigation
+7.Hero
+8.Home
+9.About
+10.Experience
+11.Services
+12.Process
+13.Portfolio
+14.Pricing Plans
+15.Team
+16.Testimonials
+17.Contact
+18.Social Icons
+19.Blog
+20.Media Queries
+--------------------------------------------------------------
+*/
+
+
+/* 1.Typography
+-------------------------------------------------------------- */
+/* Typography for light backgrounds */
+p { 
+	color: #333333;
+	line-height: 1.6em;
+	margin: 0 0 20px;
+	font-weight: 300;
+}
+p.page-title{
+	font-size: 1.4em;
+	margin: 20px 0 20px 0;
+}
+
+em { font-style: italic; }
+strong { font-weight: 500; }
+small { font-size: 0.8em; }
+
+h1,h2,h3,h4,h5,h6 {
+	color: #333333;
+	font-style: normal;
+	font-weight: 300;
+	line-height: 1.17em;
+	margin: 0 0 10px;
+}
+
+h1 {
+	font-size: 3.46666666667em;
+	text-transform: uppercase;
+	letter-spacing: 0.20em;
+}
+
+h2 {
+	font-size: 2.4em;
+	text-transform: uppercase;
+	letter-spacing: 0.20em;
+}
+
+h3 {
+	font-size: 1em;
+	text-transform: uppercase;
+	letter-spacing: 0.20em;
+	font-weight: 300;
+}
+
+h4 {
+	font-size: 1em;
+	text-transform: uppercase;
+	font-weight: 300;	
+}
+
+h5 {
+	font-size: 1em;
+	font-weight: 300;
+}
+
+h6 {
+	font-size: 0.8em;
+	text-transform: uppercase;
+	font-weight: 300;
+}
+blockquote{
+	font-weight: 300;
+	font-size: 1.2em;
+}
+
+/* Typography for dark backgrounds */
+
+.dark p, .dark h1, .dark h2, .dark h3, .dark h4, .dark h5, .dark h6 { color: #fff; }
+.dark a { color: #fff!important; }
+
+/* Links */
+a, a:visited { font-weight: 300; text-decoration: none; }
+.img-responsive{
+	display: inline-block !important;
+}
+a:focus { 
+    outline: none; 
+}
+button::-moz-focus-inner {
+  border: 0;
+}
+
+
+
+/* 2.General Styles
+-------------------------------------------------------------- */
+
+/*Horizontal line separator with circle*/
+.hr-circle{
+	margin: 0 auto;
+}
+.hr-inner{
+	width: 60%;
+	background: #333;
+	height: 1px;
+	margin: 0 auto;
+	opacity: 0.4;
+}
+.hr-inner-style {
+	border-radius: 20px;
+	height: 9px;
+	width: 9px;
+	border: 1px solid #333;	
+	display: block;
+	position: absolute;
+	left: 50%;
+	margin-left: -5px;
+	margin-top: -5px;
+	background: #333;	
+}
+.dark .hr-inner,.dark .hr-inner-style{
+	background: #FFF !important;
+	border: 1px solid #FFF !important;	
+}
+/*Transparent Slide Arrow*/
+.commom-trans{	
+	color: #333;
+	border: 2px solid #333;
+	cursor: pointer;		
+	line-height: 1;
+	margin: 0 1.25em 0 1.25em;
+	position: relative;
+	text-decoration: none;
+	text-align: center;
+	padding: 8px 8px 10px 8px;
+	display: inline-block;	
+	-webkit-border-radius: 0px;
+	border-radius: 0px;	
+}
+.commom-trans:hover {
+	color: #FFF;
+	background-color: #333;
+	border: 2px solid #333;
+	-webkit-transition: all 300ms ease-out;
+	-moz-transition: all 300ms ease-out;
+	transition: all 300ms ease-out;
+	text-decoration: none;
+	
+}
+
+.dark .commom-trans{
+	border: 2px solid #FFF !important;	
+	color: #FFF !important;
+}
+.dark .commom-trans:hover{
+	color: #333 !important;
+	background-color: #FFF !important;
+	border: 2px solid #FFF !important;
+}
+
+
+/* 3.Buttons
+-------------------------------------------------------------- */
+/*Transparent Button*/
+.btn-trans:hover {
+	color: #333 !important;
+	-webkit-transition: all 300ms ease-out;
+	-moz-transition: all 300ms ease-out;
+	transition: all 300ms ease-out;
+	background-color: #fff;
+}
+.btn-trans{
+	border-style: solid;
+	border-width: 1px;
+	cursor: pointer;
+	font-weight: 400 !important;
+	font-size: 1.4em !important;
+	line-height: 1;
+	margin: 0 0 1.25em;
+	position: relative;
+	text-decoration: none;
+	text-align: center;
+	display: inline-block;
+	padding-top: 1.1em;
+	padding-right: 2.2em;
+	padding-bottom: 1.1625em;
+	padding-left: 2.2em;
+	font-size: 0.975em;
+	background-color: rgba(255,255,255,0);
+	border-color: rgba(230,230,230,0);
+	color: #333;
+	-webkit-border-radius: 0px;
+	border-radius: 0px;
+	border: 2px solid #fff;
+}
+/* Font outer icon circle*/
+i.icon-circle-border {
+	display: inline-block;
+	vertical-align: middle;
+	text-align: center;
+	width: 100px;
+	height: 100px;	
+	line-height: 85px;
+	margin-top: 15px;
+	margin-bottom: 15px;
+	color: #ffffff;
+	border: 2px solid #ffffff;
+	border-radius: 50%;
+	font-size: 3.5em;
+}
+i.icon-circle-border:hover {
+	border: 2px dashed #ffffff;
+}
+
+
+/* 4.Content Styles
+-------------------------------------------------------------- */
+.content { 
+	padding-top: 50px; 
+	text-align: center; 
+	padding-bottom: 50px; 
+}
+.container{
+	text-align: center;	 
+}
+.content.padded { 
+	padding-bottom: 100px; 
+}
+.center {
+     float: none;
+     display: inline-block;
+     margin-left: auto;
+     margin-right: auto;
+}
+
+
+/* 5.Parallax Style
+-------------------------------------------------------------- */
+
+.parallax {
+	width: 100%;
+	background-attachment: fixed !important;
+	background-position: 50% 0;
+	color: #ffffff;
+}
+/* Remove parallax effect*/
+.parallax.no-parallax { 
+	background-size: cover!important; 
+	background-attachment: scroll!important; 
+	background-position: center!important; 
+}
+.parallax-bg1 {
+	background-image: url(../images/bg.jpg);
+}
+.parallax-bg2 {	
+	background: #48CFAD;
+	/*background:#48CFAD url(../images/services-blue.jpg);*/	
+}
+.parallax-bg3 {
+	background: #ED5565;
+	/*background-image:url(../images/services-pink.jpg);	*/	
+}
+.parallax-bg4 {
+	background: #A0D468;
+	/*background: #ED5565 url(../images/services-green.jpg);	*/	
+}
+.parallax-bg5 {
+	background: #FC6E51;
+	/*background: #FC6E51 url(../images/services-red.jpg);*/	
+}
+.parallax-bg6 {
+	background: #FFCE54;
+	/*background: #FC6E51 url(../images/services-yellow.jpg);*/	
+}
+.parallax-bgc{
+	background-image: url(../images/backgrounds/common.jpg);
+}
+.parallax-bg-white{
+	background: #FFFFFF;	
+}
+/* Parallax Fix */
+@media only screen and (min-width: 1930px) { .parallax { background-size: cover; } }
+
+/*Black color layer over background image*/
+.layer {
+    background-color: rgba(0, 0, 0, 0.9);
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+}
+
+
+/* 6.Navigation
+-------------------------------------------------------------- */
+
+/* Navbar background with opacity */
+.navbar-default-o{
+	background-color: rgba(255,255,255,0.9);	
+}
+/* Navbar background without opacity */
+.navbar-default{
+	background-color: #ffffff;	
+	padding: 5px 10px;
+	border-bottom: 2px solid #E0E0E0;
+}
+.navbar-default .navbar-nav > li > a{
+	text-transform: uppercase;
+}
+.navbar-brand{
+	padding: 0px;
+}
+/*Navbar menu icons color*/
+.nav .glyphicon-home{color: #333333}
+.nav .glyphicon-comment{color: #48CFAD;}
+.nav .glyphicon-cog{color: #ED5565;}
+.nav .glyphicon-briefcase{color: #A0D468;}
+.nav .glyphicon-briefcase{color: #A0D468;}
+.nav .glyphicon-th{color: #A0D468;}
+.nav .glyphicon-user{color: #FC6E51;}
+.nav .glyphicon-map-marker{color: #FFCE54;}
+
+
+/* 7.Hero
+-------------------------------------------------------------- */
+.hero { 
+  text-align: center; 
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+.hero .content { padding-top: 0px; }
+
+/* 8.Home
+-------------------------------------------------------------- */
+.animated-text-1{
+	font-size: 4em;
+	font-weight: 300;
+}
+.animated-text-2{
+	font-size: 3.5em;
+	font-weight: 200;
+	margin-bottom: 30px;
+}
+
+/* 9.About
+-------------------------------------------------------------- */
+
+
+
+/* 10.Experience / Skill
+-------------------------------------------------------------- */
+.experience-box{
+	margin: 20px;	
+}
+.experience-box h3{
+	margin: 10px 0;
+}
+
+
+/* 11.Services
+-------------------------------------------------------------- */
+.service-box{
+	min-height: 300px;
+	vertical-align: top;
+}
+.service-box-bg{
+	margin-bottom: 10px;
+}
+
+
+/* 12.Process
+-------------------------------------------------------------- */
+.process-box{
+
+}
+.process-box h3{
+	font-size: 1.5em;
+}
+
+/* 13.Portfolio
+-------------------------------------------------------------- */
+#portfolio_container{
+	display: block;
+	clear: both;
+}
+#portfolio_links ul, #portfolio_links li {
+    list-style-type:none;
+    margin:20px 10px 20px 5px;
+    padding:0
+}
+#portfolio_container img{
+	width: 180px;	
+}
+#portfolio_container .photo{
+	margin: 10px;
+	padding: 10px;
+	background: #FFF;
+	box-shadow: 5px 5px 0px rgba(0, 0, 0, .2);
+}
+
+.portfolio-hover {
+	position: absolute;
+	width: 100%;
+	height: 100%;
+	overflow: hidden;
+	color: rgba(255,255,255,0.0);
+	background: rgba(0,0,0,0.0);
+	font-size: 16px;
+	font-weight: 700;
+	margin: -10px;
+	letter-spacing: 0.1em;
+	line-height: 20px;
+	text-transform: uppercase;
+	visibility: visible;
+	-webkit-transition: all .3s ease-in-out;
+	   -moz-transition: all .3s ease-in-out;
+		-ms-transition: all .3s ease-in-out;
+		 -o-transition: all .3s ease-in-out;
+			transition: all .3s ease-in-out;
+}
+
+#portfolio_container a:hover > .portfolio-hover {
+	color: rgba(255,255,255,1);
+	background: rgba(72,207,173,0.9);
+	-webkit-transition: all .3s ease-in-out;
+	   -moz-transition: all .3s ease-in-out;
+		-ms-transition: all .3s ease-in-out;
+		 -o-transition: all .3s ease-in-out;
+			transition: all .3s ease-in-out;
+}
+
+.portfolio-hover span {
+	display: inline-block;	
+	position: absolute;
+	left: 50%;
+	top: 50%;
+	-webkit-transform: translate(-50%, -50%);
+		-ms-transform: translate(-50%, -50%);
+			transform: translate(-50%, -50%);
+}
+
+.portfolio-hover b {	
+	font-size: 14px;
+	font-style: italic;
+	font-weight: normal;
+	letter-spacing: 0;
+	text-transform: none;
+	padding-top: 0;
+	display: inline-block;
+	-webkit-transition: all .1s ease-in-out;
+	   -moz-transition: all .1s ease-in-out;
+		-ms-transition: all .1s ease-in-out;
+		 -o-transition: all .1s ease-in-out;
+			transition: all .1s ease-in-out;
+}
+
+.portfolio-hover span.plus {
+	font-size: 8.0em;
+	font-weight: 100;
+}
+
+.project-item a:hover > .portfolio-hover b {
+	color: rgba(255,255,255,1);
+	-webkit-transition: all .3s ease-in-out;
+	   -moz-transition: all .3s ease-in-out;
+		-ms-transition: all .3s ease-in-out;
+		 -o-transition: all .3s ease-in-out;
+			transition: all .3s ease-in-out;
+}
+/* this is for a horizontal menu if you want one */
+ #portfolio_links li {
+    float:left;
+}
+/*Isotope Filtering*/
+ .isotope-item {
+    z-index: 2;    
+}
+.isotope-hidden.isotope-item {
+    pointer-events: none;
+    z-index: 1;
+}
+/*Isotope CSS3 transitions*/
+ .isotope, .isotope .isotope-item {
+    -webkit-transition-duration: 0.8s;
+    -moz-transition-duration: 0.8s;
+    -ms-transition-duration: 0.8s;
+    -o-transition-duration: 0.8s;
+    transition-duration: 0.8s;
+}
+.isotope {
+    -webkit-transition-property: height, width;
+    -moz-transition-property: height, width;
+    -ms-transition-property: height, width;
+    -o-transition-property: height, width;
+    transition-property: height, width;
+}
+.isotope .isotope-item {
+    -webkit-transition-property: -webkit-transform, opacity;
+    -moz-transition-property: -moz-transform, opacity;
+    -ms-transition-property: -ms-transform, opacity;
+    -o-transition-property: -o-transform, opacity;
+    transition-property: transform, opacity;
+}
+/* disabling Isotope CSS3 transitions */
+ .isotope.no-transition, .isotope.no-transition .isotope-item, .isotope .isotope-item.no-transition {
+    -webkit-transition-duration: 0s;
+    -moz-transition-duration: 0s;
+    -ms-transition-duration: 0s;
+    -o-transition-duration: 0s;
+    transition-duration: 0s;
+}
+
+/* 14.Pricing Plans
+-------------------------------------------------------------- */
+.pricing-block{
+	margin: 5px !important;
+	width: 100%;
+}
+.pricing-block h2,.pricing-block h3{
+	margin: 10px;
+}
+/* 4 plan tiny, small, medium and pro*/
+.pricing-block.tiny {
+	display: inline-block;
+    -moz-box-shadow: 5px 5px 0px rgba(0,0,0,.2);
+    -webkit-box-shadow: 5px 5px 0px rgba(0,0,0,.2);
+    box-shadow: 5px 5px 0px rgba(0, 0, 0, .2);	
+	border:1px solid #48CFAD;
+	border-bottom:10px solid #48CFAD;    
+}
+
+.pricing-block.small {    
+	display: inline-block;
+    -moz-box-shadow: 5px 5px 0px rgba(0,0,0,.2);
+    -webkit-box-shadow: 5px 5px 0px rgba(0,0,0,.2);
+    box-shadow: 5px 5px 0px rgba(0, 0, 0, .2);	
+	border:1px solid #ED5565;
+	border-bottom:10px solid #ED5565;
+    
+}
+
+.pricing-block.medium {    
+	display: inline-block;
+    -moz-box-shadow: 5px 5px 0px rgba(0,0,0,.2);
+    -webkit-box-shadow: 5px 5px 0px rgba(0,0,0,.2);
+    box-shadow: 5px 5px 0px rgba(0, 0, 0, .2);	
+	border:1px solid #A0D468;
+	border-bottom:10px solid #A0D468;
+}
+
+.pricing-block.pro{    
+	display: inline-block;
+    -moz-box-shadow: 5px 5px 0px rgba(0,0,0,.2);
+    -webkit-box-shadow: 5px 5px 0px rgba(0,0,0,.2);
+    box-shadow: 5px 5px 0px rgba(0, 0, 0, .2);	
+	border:1px solid #FC6E51;
+	border-bottom:10px solid #FC6E51;
+}
+
+.pricing-table strong { font-weight: 700; color: #3d3d3d; }
+
+.pricing-table-header-tiny {
+    padding: 5px 0 5px 0;
+    background: #48CFAD;
+	border-bottom:10px solid #48CFAD;
+}
+
+.pricing-table-header-small {
+    padding: 5px 0 5px 0;
+    background: #ED5565;
+	border-bottom:10px solid #ED5565;
+
+}
+
+.pricing-table-header-medium {
+    padding: 5px 0 5px 0;
+    background: #A0D468;
+	border-bottom:10px solid #A0D468;
+
+}
+
+.pricing-table-header-pro {
+    padding: 5px 0 5px 0;
+    background: #FC6E51;
+	border-bottom:10px solid #FC6E51;
+}
+
+.pricing-table-header-tiny h2, .pricing-table-header-small h2, .pricing-table-header-medium h2, .pricing-table-header-pro h2 {  font-weight: 400; color:#FFF; }
+.pricing-table-header-tiny h3, .pricing-table-header-small h3, .pricing-table-header-medium h3, .pricing-table-header-pro h3 { font-weight: 500; color:#FFF;  }
+
+
+.pricing-table-text {
+    margin: 15px 30px 0 30px;
+    padding: 0 10px 15px 10px;
+    border-bottom: 1px solid #ddd;
+    text-align: left;
+    line-height: 30px;
+    font-size: 16px;
+    color: #888;
+}
+
+.pricing-table-features {
+    margin: 15px 10px 0 10px;
+    padding: 0 10px 15px 10px;
+    border-bottom: 1px dashed #888;
+    text-align: center;
+    line-height: 20px;
+    font-size: 14px;
+    color: #888;
+}
+.pricing-table-signup{
+	margin: 10px;
+}
+
+
+/* 15.Team
+-------------------------------------------------------------- */
+.profile-box{
+	background-color: #fff;	
+	margin: 20px;
+	padding: 0px;	
+	color: rgb(51, 51, 51);
+	box-shadow: 5px 5px 0px rgba(0, 0, 0, .2);
+}
+
+.profile-box-bg{	
+	background: #eeeeee;	
+	padding: 15px;
+	margin-bottom: 15px;
+}
+.profile-box .photo {
+	width: 155px;
+	height: 155px;
+	border-radius: 50%;
+	margin: auto;
+}
+.profile-box h3{
+	color: #222222;
+	font-weight: 500;
+}
+.profile-box p{
+	color: #333333;
+}
+.profile-box-follow{	
+	background: #eeeeee;
+	padding: 10px;	
+}
+
+/* 16 Social Icons */
+.social-icons a{
+	padding: 2px;
+}
+.social-icon.small.google {
+    background: url("../images/icons/google.png") no-repeat scroll center center / 26px 26px transparent;
+}
+.social-icon.small.facebook {
+    background: url("../images/icons/facebook.png") no-repeat scroll center center / 26px 26px transparent;
+}
+.social-icon.small.twitter {
+    background: url("../images/icons/twitter.png") no-repeat scroll center center / 26px 26px transparent;
+}
+.social-icon.small.linkedin {
+    background: url("../images/icons/linkedin.png") no-repeat scroll center center / 26px 26px transparent;
+}
+.social-icon.small.android {
+    background: url("../images/icons/android.png") no-repeat scroll center center / 26px 26px transparent;
+}
+.social-icon.small.apple {
+    background: url("../images/icons/apple.png") no-repeat scroll center center / 26px 26px transparent;
+}
+.social-icon.small.behance {
+    background: url("../images/icons/behance.png") no-repeat scroll center center / 26px 26px transparent;
+}
+.social-icon.small.blogger {
+    background: url("../images/icons/blogger.png") no-repeat scroll center center / 26px 26px transparent;
+}
+.social-icon.small.deviantart {
+    background: url("../images/icons/deviantart.png") no-repeat scroll center center / 26px 26px transparent;
+}
+.social-icon.small.dribbble {
+    background: url("../images/icons/dribbble.png") no-repeat scroll center center / 26px 26px transparent;
+}
+.social-icon.small.envato {
+    background: url("../images/icons/envato.png") no-repeat scroll center center / 26px 26px transparent;
+}
+.social-icon.small.evernote {
+    background: url("../images/icons/evernote.png") no-repeat scroll center center / 26px 26px transparent;
+}
+.social-icon.small.flickr {
+    background: url("../images/icons/flickr.png") no-repeat scroll center center / 26px 26px transparent;
+}
+.social-icon.small.windows8 {
+    background: url("../images/icons/windows8.png") no-repeat scroll center center / 26px 26px transparent;
+}
+.social-icon.small.wordpress {
+    background: url("../images/icons/wordpress.png") no-repeat scroll center center / 26px 26px transparent;
+}
+.social-icon.small.youtube {
+    background: url("../images/icons/youtube.png") no-repeat scroll center center / 26px 26px transparent;
+}
+.social-icon.small.paypal {
+    background: url("../images/icons/paypal.png") no-repeat scroll center center / 26px 26px transparent;
+}
+.social-icon.small.pinterest {
+    background: url("../images/icons/pinterest.png") no-repeat scroll center center / 26px 26px transparent;
+}
+.social-icon.small.skype {
+    background: url("../images/icons/skype.png") no-repeat scroll center center / 26px 26px transparent;
+}
+.social-icon.small.soundcould {
+    background: url("../images/icons/soundcould.png") no-repeat scroll center center / 26px 26px transparent;
+}
+.social-icon.small.sparow {
+    background: url("../images/icons/sparow.png") no-repeat scroll center center / 26px 26px transparent;
+}
+.social-icon.small.tumblr {
+    background: url("../images/icons/tumblr.png") no-repeat scroll center center / 26px 26px transparent;
+}
+.social-icon.small.vimeo {
+    background: url("../images/icons/vimeo.png") no-repeat scroll center center / 26px 26px transparent;
+}
+
+.social-icon.small {
+    display: inline-block;
+    height: 26px;    
+    width: 26px;
+}
+
+/* 17.Testimonials
+-------------------------------------------------------------- */
+#testimonials .testimonial-symbol-left{
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 8.0em;
+	line-height: 120px;
+	font-weight: 300;
+	color: #777777;
+	float: left;
+	margin-top: -10px;
+}
+#testimonials .testimonial-symbol-right{
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 8.0em;
+	line-height: 120px;
+	font-weight: 300;
+	color: #777777;
+	float: right;
+	margin: 10px;
+	margin-top: -80px;
+}
+#testimonials .glyphicon-heart,#testimonials .glyphicon-heart-empty{
+	color: #ED5565;
+	font-size: 1.2em;
+}
+#testimonials .glyphicon-star,#testimonials .glyphicon-star-empty{
+	color: #FFCE54;
+	font-size: 1.2em;	
+}
+#testimonials .client-testimonial{
+	font-size: 25px !important;
+	letter-spacing: normal !important;
+}
+#testimonials .testimonial-img{
+	width: 100px;
+}
+.testimonials-arrow-prev, .testimonials-arrow-next {	
+	line-height: 46px;	
+	z-index: 211;
+	margin-top: -10%;
+}
+.testimonials-arrow-prev{	
+	float: left;
+}
+.testimonials-arrow-next{	
+	float: right;
+}
+
+
+/* 18.Contact
+-------------------------------------------------------------- */
+/*Google Map*/
+#map-wrapper { 
+	position: relative; 
+}
+#map {
+    height: 400px;
+    -moz-box-shadow: 5px 5px 0px rgba(0,0,0,.2);
+    -webkit-box-shadow: 5px 5px 0px rgba(0,0,0,.2);
+    box-shadow: 5px 5px 0px rgba(0, 0, 0, .2);
+    margin-bottom: 15px;
+}
+#over-map { 
+	position: absolute; 
+	bottom: 0px;	
+	z-index: 99;
+	width: 100%;
+}
+.map-arrow-up {
+	width: 0; 
+	height: 0; 
+	border-left: 180px solid transparent;
+	border-right: 180px solid transparent;  
+	border-bottom: 100px solid rgba(72,207,173,0.8);
+	margin: 0 auto;
+}
+.map-address-box{
+	width:360px;
+	font-size: 1.2em;
+	padding-bottom: 10px;  
+	background:rgba(72,207,173,0.8);
+	margin: 0 auto;
+}
+
+
+/*Contact Form*/
+.contact-form input[type="text"], .contact-form textarea {
+	border: none;
+	background: rgba(0,0,0,0.2);
+	color: #FFFFFF;
+}
+.contact-form input::-webkit-input-placeholder,.contact-form textarea::-webkit-input-placeholder { /* WebKit browsers */
+    color:    #FFF;
+}
+.contact-form input:-moz-placeholder,.contact-form textarea:-moz-placeholder { /* Mozilla Firefox 4 to 18 */
+    color:    #FFF;
+}
+.contact-form input::-moz-placeholder,.contact-form textarea::-moz-placeholder { /* Mozilla Firefox 19+ */
+    color:    #FFF;
+}
+.contact-form input:-ms-input-placeholder,.contact-form textarea:-ms-input-placeholder { /* Internet Explorer 10+ */
+    color:    #FFF;
+}
+.contact-form input[type="text"]:focus, .contact-form textarea:focus {
+	outline: none;
+	background: rgba(0, 0, 0, 0.1);
+}
+.form-control:focus {
+	border-color: none;
+	outline: 0;
+	-webkit-box-shadow:none;
+	-moz-box-shadow:none;
+	box-shadow:none;
+}
+.contact-details i{
+	font-size: 2.5em;
+}
+.contact-form label.error{
+	float: left;
+	color: #ED5565;
+	font-weight: 400 !important;
+}
+
+/* 19.Footer
+-------------------------------------------------------------- */
+
+#blog{
+	padding-top: 40px;
+}
+.blog-post{
+	padding: 40px 0 40px 0;
+}
+.blog-post .hr-circle{
+	padding: 20px 0px;
+}
+
+.post-type-circle {
+    width: 100px;
+	height: 100px;
+	background-color: #48CFAD;
+	-webkit-border-radius: 50%;
+	-moz-border-radius: 50%;
+	border-radius: 50%;
+	margin: 0 auto;
+	position: relative;
+	margin-top: -50px;	
+}
+.post-type-circle i{
+	color: #fff;
+	line-height: 80px;
+	font-size: 2.5em;
+}
+.post-img{
+	-webkit-border-radius: 20px;
+	-moz-border-radius: 20px;
+	border-radius: 20px;
+}
+.post-content{
+	padding: 20px 0px;
+}
+/* 20.Media-Query
+-------------------------------------------------------------- */
+
+/* -------------------- Large screens -------------------- */
+@media only screen and (min-width : 1680px) {
+}
+
+/* -------------------- Tablet Landscape -------------------- */
+ @media only screen and (min-device-width : 768px) and (max-device-width : 1024px) and (orientation : landscape) {
+	.parallax { background-size: cover; background-attachment: scroll; background-position: top center!important; }	
+}
+
+/* -------------------- Smaller than 960px -------------------- */
+@media only screen and (max-width: 959px) {
+	
+}
+
+
+/* -------------------- Tablet Portrait Size -------------------- */
+@media only screen and (min-width: 768px) and (max-width: 959px) {
+	.nav > li > a{padding: 10px 10px;}
+}
+
+
+/* -------------------- All Mobile Sizes -------------------- */
+@media only screen and (max-width: 767px) {	
+	
+	.animated-text-1{font-size: 2.5em;}
+	.animated-text-2{font-size: 2em;}
+	.pull-right{float: left !important; text-align: left;}
+	p.page-title,#testimonials h2 { font-size: 1.2em;}
+	#testimonials .testimonial-symbol-right{opacity: 0.2;}
+	.map-arrow-up {border-left: 125px solid transparent;border-right: 125px solid transparent;  border-bottom: 100px solid rgba(72,207,173,0.8);}
+	.map-address-box{width:250px;font-size: 1.0em;}
+}
+
+/* -------------------- Mobile Landscape -------------------- */
+@media only screen and (min-width: 480px) and (max-width: 767px) {
+
+	.animated-text-1{font-size: 2.5em;}
+	.animated-text-2{font-size: 2em;}
+	#testimonials .testimonial-symbol-right,#testimonials .testimonial-symbol-left{display: none;}
+	.animated { opacity: 1 !important;}
+	#portfolio_links ul, #portfolio_links li{margin: 5px;}
+	.parallax-bgc{background: rgba(0,0,0,0.8);}
+}
+
+/* -------------------- Mobile Portrait -------------------- */
+@media only screen and (max-width: 479px) {
+	.animated-text-1{font-size: 2.5em;}
+	.animated-text-2{font-size: 2em;}
+	#testimonials .testimonial-symbol-right,#testimonials .testimonial-symbol-left{display: none;}
+	.animated { opacity: 1 !important;}
+	#portfolio_links ul, #portfolio_links li{margin: 5px;}
+	#portfolio_container img{width: 100px;}
+}
+
+/* Retina Display Media Query */
+@media
+only screen and (-webkit-min-device-pixel-ratio: 2),
+only screen and (   min--moz-device-pixel-ratio: 2),
+only screen and (     -o-min-device-pixel-ratio: 2/1),
+only screen and (        min-device-pixel-ratio: 2),
+only screen and (                min-resolution: 192dpi),
+only screen and (                min-resolution: 2dppx) {
+
+	/* Retina-specific stuff here */
+	.social-icon.small.google {
+    background: url("../images/icons/google@2x.png") no-repeat scroll center center / 26px 26px transparent;
+	}
+	.social-icon.small.facebook {
+	    background: url("../images/icons/facebook@2x.png") no-repeat scroll center center / 26px 26px transparent;
+	}
+	.social-icon.small.twitter {
+	    background: url("../images/icons/twitter@2x.png") no-repeat scroll center center / 26px 26px transparent;
+	}
+	.social-icon.small.linkedin {
+	    background: url("../images/icons/linkedin@2x.png") no-repeat scroll center center / 26px 26px transparent;
+	}
+	.social-icon.small.android {
+	    background: url("../images/icons/android@2x.png") no-repeat scroll center center / 26px 26px transparent;
+	}
+	.social-icon.small.apple {
+	    background: url("../images/icons/apple@2x.png") no-repeat scroll center center / 26px 26px transparent;
+	}
+	.social-icon.small.behance {
+	    background: url("../images/icons/behance@2x.png") no-repeat scroll center center / 26px 26px transparent;
+	}
+	.social-icon.small.blogger {
+	    background: url("../images/icons/blogger@2x.png") no-repeat scroll center center / 26px 26px transparent;
+	}
+	.social-icon.small.deviantart {
+	    background: url("../images/icons/deviantart@2x.png") no-repeat scroll center center / 26px 26px transparent;
+	}
+	.social-icon.small.dribbble {
+	    background: url("../images/icons/dribbble@2x.png") no-repeat scroll center center / 26px 26px transparent;
+	}
+	.social-icon.small.envato {
+	    background: url("../images/icons/envato@2x.png") no-repeat scroll center center / 26px 26px transparent;
+	}
+	.social-icon.small.evernote {
+	    background: url("../images/icons/evernote@2x.png") no-repeat scroll center center / 26px 26px transparent;
+	}
+	.social-icon.small.flickr {
+	    background: url("../images/icons/flickr@2x.png") no-repeat scroll center center / 26px 26px transparent;
+	}
+	.social-icon.small.windows8 {
+	    background: url("../images/icons/windows8@2x.png") no-repeat scroll center center / 26px 26px transparent;
+	}
+	.social-icon.small.wordpress {
+	    background: url("../images/icons/wordpress@2x.png") no-repeat scroll center center / 26px 26px transparent;
+	}
+	.social-icon.small.youtube {
+	    background: url("../images/icons/youtube@2x.png") no-repeat scroll center center / 26px 26px transparent;
+	}
+	.social-icon.small.paypal {
+	    background: url("../images/icons/paypal@2x.png") no-repeat scroll center center / 26px 26px transparent;
+	}
+	.social-icon.small.pinterest {
+	    background: url("../images/icons/pinterest@2x.png") no-repeat scroll center center / 26px 26px transparent;
+	}
+	.social-icon.small.skype {
+	    background: url("../images/icons/skype@2x.png") no-repeat scroll center center / 26px 26px transparent;
+	}
+	.social-icon.small.soundcould {
+	    background: url("../images/icons/soundcould@2x.png") no-repeat scroll center center / 26px 26px transparent;
+	}
+	.social-icon.small.sparow {
+	    background: url("../images/icons/sparow@2x.png") no-repeat scroll center center / 26px 26px transparent;
+	}
+	.social-icon.small.tumblr {
+	    background: url("../images/icons/tumblr@2x.png") no-repeat scroll center center / 26px 26px transparent;
+	}
+	.social-icon.small.vimeo {
+	    background: url("../images/icons/vimeo@2x.png") no-repeat scroll center center / 26px 26px transparent;
+	}
+}

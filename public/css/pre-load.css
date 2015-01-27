@@ -1,0 +1,36 @@
+body{
+	display:none;
+}
+#jpreOverlay {
+	background-color: #333131;
+}
+#jpreSlide{
+	font-size:22px;
+	font-weight:bold;
+	color:#ccc;
+	text-align:center;
+	width:50%;
+	height:30%;
+}
+#jpreLoader{
+	width:300px;
+	height:25px;
+	border:1px inset #888;
+	border-radius:4px;
+	-moz-border-radius:4px;
+	-webkit-border-radius:4px;
+}
+
+#jpreBar {
+	background:#ccac00;
+	border-radius:4px;
+	-moz-border-radius:4px;
+	-webkit-border-radius:4px;
+}
+
+#jprePercentage {
+	color:#fff;
+	font-family:"Roboto",Arial,Helvetica,sans-serif;	
+	text-align:center;	
+	top:-80%;
+}

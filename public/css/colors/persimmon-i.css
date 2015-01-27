@@ -1,0 +1,14 @@
+#portfolio_container a:hover > .portfolio-hover {
+	background: rgba(252,110,81,0.9);
+	-webkit-transition: all .3s ease-in-out;
+	-moz-transition: all .3s ease-in-out;
+	-ms-transition: all .3s ease-in-out;
+	-o-transition: all .3s ease-in-out;
+	transition: all .3s ease-in-out;
+}
+
+/* Content */
+.parallax-bg2,.parallax-bg3,.parallax-bg4,.parallax-bg5,.parallax-bg6 {
+	background: #FC6E51 url(../../images/backgrounds/team.jpg);
+	background-size: cover;
+}

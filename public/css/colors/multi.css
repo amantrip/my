@@ -1,0 +1,30 @@
+
+
+.projectlist a:hover .projectinfo { 
+	background: #ED5565; 
+	-webkit-transition: background .33s linear;
+	-moz-transition: background .15s linear;
+	-o-transition: background .15s linear;
+	transition: background .15s linear; 
+}
+
+
+
+/* DEMO ONLY */ 
+
+
+.parallax-bg2 {	
+	background-color: #48CFAD;	
+}
+.parallax-bg3 {
+	background-color: #ED5565;	
+}
+.parallax-bg4 {
+	background-color: #A0D468;	
+}
+.parallax-bg5 {
+	background-color: #FC6E51;	
+}
+.parallax-bg6 {
+	background-color: #FFCE54;	
+}

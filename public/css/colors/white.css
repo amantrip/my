@@ -1,0 +1,26 @@
+/* Links */
+.dark p, .dark h1, .dark h2, .dark h3, .dark h4, .dark h5, .dark h6 { color: #333; }
+
+.parallax-bgc p, .parallax-bgc h1, .parallax-bgc h2, .parallax-bgc h3, .parallax-bgc h4, .parallax-bgc h5, .parallax-bgc h6 { color: #fff; }
+
+.contact-details,.contact-details .glyphicon{
+	color: #333;
+}
+i.icon-circle-border:hover{
+	border: 2px dashed #333;
+}
+
+#portfolio_container a:hover > .portfolio-hover {
+	background: rgba(225,225,225,0.9);
+	-webkit-transition: background .33s linear;
+	-moz-transition: background .15s linear;
+	-o-transition: background .15s linear;
+	transition: background .15s linear; 
+}
+
+
+
+/* DEMO ONLY */ 
+.parallax-bg2,.parallax-bg3,.parallax-bg4,.parallax-bg5,.parallax-bg6 {
+	background: #FFFFFF;
+}

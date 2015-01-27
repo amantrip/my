@@ -1,0 +1,14 @@
+#portfolio_container a:hover > .portfolio-hover {
+	background: rgba(255,206,84,0.9);
+	-webkit-transition: all .3s ease-in-out;
+	-moz-transition: all .3s ease-in-out;
+	-ms-transition: all .3s ease-in-out;
+	-o-transition: all .3s ease-in-out;
+	transition: all .3s ease-in-out;
+}
+
+/* Content */
+.parallax-bg2,.parallax-bg3,.parallax-bg4,.parallax-bg5,.parallax-bg6 {
+	background: #FFCE54 url(../../images/backgrounds/contact.jpg);
+	background-size: cover;
+}

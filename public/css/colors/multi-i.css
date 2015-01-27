@@ -1,0 +1,27 @@
+
+/* DEMO ONLY */ 
+/*Shamrock*/
+.parallax-bg2 {	
+	background:#48CFAD url(../../images/backgrounds/about.jpg);
+	background-size: cover;
+}
+/*Mandy*/
+.parallax-bg3 {
+	background:#ED5565 url(../../images/backgrounds/services.jpg);
+	background-size: cover;
+}
+/*Feijoa*/
+.parallax-bg4 {
+	background: #A0D468 url(../../images/backgrounds/portfolio.jpg);
+	background-size: cover;
+}
+/*Persimmon*/
+.parallax-bg5 {
+	background: #FC6E51 url(../../images/backgrounds/team.jpg);
+	background-size: cover;
+}
+/*Golden-tainoi*/
+.parallax-bg6 {
+	background: #FFCE54 url(../../images/backgrounds/contact.jpg);
+	background-size: cover;
+}
