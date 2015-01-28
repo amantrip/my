@@ -1,2 +1,2 @@
-## Copyright &copy; 2015
- Personal Website of Akhilesh Mantripragada
+## Personal Website of Akhilesh Mantripragada 
+ Copyright &copy; 2015
