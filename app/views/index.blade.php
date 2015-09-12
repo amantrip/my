@@ -168,26 +168,26 @@
         <div class="row">
             <div class="col-xs-8 col-sm-4 col-md-3 col-lg-3 center animated" data-animation="fadeInLeft" >
               <div class="">
-                <img class="img-circle"   src="images/ak.png" alt="140x140">
+                <img class="img-circle"   src="images/akhi.jpg" alt="140x140">
               </div>
             </div>
         </div>
 
 
-        <p class="left">I'm currently studying at Columbia University.  I'm majoring in what I love the most, Computer Science!! I graduated from University of Texas at San Antonio with Summa Cum Laude and Highest Honors.  My interests include web programming, cloud computing, machine learning, data analytics and search engines.
-          <br><br>I Co-Founded Intuitive Inventions to work on some cool projects including Edulinc, BoardBaby and Quantitative Literacy Data Submission.
+        <p class="left">I'm currently studying at Columbia University.  I'm majoring in what I love the most, Computer Science! I graduated from University of Texas at San Antonio with Summa Cum Laude and Highest Honors.  My interests include web programming, cloud computing, machine learning, data analytics and search engines.
+          <br><br>I co-founded Intuitive Inventions to work on some cool projects including Edulinc, BoardBaby and Quantitative Literacy Data Submission.
         </p>
 
 
 <p class="left"> I don't believe in defining myself by the tech I know. Even though I call myself a "Software Engineer" or "Web Specialist" but I feel these are only titles and dont really reflect what one knows. I believe that if ones basics are strong, then one can fill in any shoes! I develop stuff that I feel I enjoy as a user, stuff that matters and stuff that I care about!</p>
 
-<p class="left">A great day for me is when I attend a meeting with my research project advisor to discuss my next big research move in the morning, pitch new ideas to Entrepreneurship Department's Head in the afternoon, listen to Dr. Alfred Aho(in awe of him!) speak about Programming Languages(having a lot of fun taking this course) in the evening and code all night while listening to my favorite music.</p>
+<p class="left">A great day for me is when I attend a meeting with my research project advisor to discuss my next big research move in the morning, pitch new ideas to Entrepreneurship Department's Head in the afternoon, listen to Dr. Jason Nieh(in awe of him!) speak about Operating Systems in the evening and code all night while listening to my favorite music.</p>
 
-<p class="left">When I'm not coding or not thinking about the next big idea, I play/ watch Cricket. I played Criket for MAC Sports Cricket Club and was the Captain of my School's Cricket team in India.</p>
+<p class="left">When I'm not coding or not thinking about the next big idea, I play/ watch Cricket. I played Cricket for MAC Sports Cricket Club and was the Captain of my School's Cricket team in India.</p>
 <h3>Please click my logo below to view my resume.</h3>
 
         <!-- Image -->
-        <a href="docs/Akhilesh-Mantripragada-Jan-2015.pdf"><img class="img-responsive animated" data-appear-top-offset="100" data-animation="bounceIn" src="img/logo2.png" alt="About"/></a>
+        <a href="docs/Resume-Akhilesh-Mantripragada.pdf"><img class="img-responsive animated" data-appear-top-offset="100" data-animation="bounceIn" src="img/logo2.png" alt="About"/></a>
       </div>
     </section>
     <!-- End About -->
@@ -208,10 +208,10 @@
         <div class="row">
           <div class="experience-box center animated" data-animation="rotateIn">
             <input class="knob" value="0" rel="90" data-readonly="true" data-fgColor="#ccac00" data-skin="tron" data-thickness=".3">
-            <h3>PHP/MySQL/Mongo DB</h3>
+            <h3>PHP/LARAVEL/MySQL</h3>
           </div>
           <div class="experience-box center animated" data-animation="rotateIn">
-            <input class="knob" value="0" rel="80" data-readonly="true" data-fgColor="#ccac00" data-skin="tron" data-thickness=".3">
+            <input class="knob" value="0" rel="85" data-readonly="true" data-fgColor="#ccac00" data-skin="tron" data-thickness=".3">
             <h3>JavaScript/jQuery</h3>
           </div>
           <div class="experience-box center animated" data-animation="rotateIn">
@@ -219,8 +219,8 @@
             <h3>HTML5/CSS3</h3>
           </div>
           <div class="experience-box center animated" data-animation="rotateIn">
-            <input class="knob" value="0" rel="80" data-readonly="true" data-fgColor="#ccac00" data-skin="tron" data-thickness=".3">
-            <h3>Machine Learning/Data Analytics</h3>
+            <input class="knob" value="0" rel="90" data-readonly="true" data-fgColor="#ccac00" data-skin="tron" data-thickness=".3">
+            <h3>UX/UI/Branding</h3>
           </div>
         </div>
         </div>
@@ -359,7 +359,7 @@
           <div class="col-lg-4 col-sm-4">
             <i class="glyphicon glyphicon-send icon-circle-border"></i>
             <h3>Mail me</h3><br>
-            <blockquote>akhilesh.mantripragada@gmail.com</blockquote>
+            <blockquote>am4227@columbia.edu</blockquote>
           </div>
           <div class="col-lg-4 col-sm-4">
             <i class="glyphicon glyphicon-phone-alt icon-circle-border"></i>
@@ -386,7 +386,7 @@
           </div>
         </div>
       </div>
-        <h3>“I CANNOT TEACH ANYBODY ANYTHING, I CAN ONLY MAKE THEM THINK”</h3>
+        <h3>“RISK MORE THAN OTHERS THINK IS SAFE AND DREAM MORE THAN OTHERS THINK IS PRACTICAL”</h3>
         <h6>©2015. All rights reserved.</h6>
       </div>
     </footer>
