@@ -174,14 +174,14 @@
         </div>
 
 
-        <p class="left">I'm currently studying at Columbia University.  I'm majoring in what I love the most, Computer Science! I graduated from University of Texas at San Antonio with Summa Cum Laude and Highest Honors.  My interests include web programming, cloud computing, machine learning, data analytics and search engines.
-          <br><br>I co-founded Intuitive Inventions to work on some cool projects including Edulinc, BoardBaby and Quantitative Literacy Data Submission.
+        <p class="left">I'm currently studying at Columbia University.  I'm majoring in what I love the most, Computer Science! I graduated from University of Texas at San Antonio with Summa Cum Laude and Highest Honors in 2014.  My interests include web programming, cloud computing, machine learning, data analytics, product management and search engines.
+          <br><br>I co-founded Intuitive Inventions to work on some cool projects including Edulinc, dScribe, BoardBaby and Quantitative Literacy Data Submission.
         </p>
 
 
 <p class="left"> I don't believe in defining myself by the tech I know. Even though I call myself a "Software Engineer" or "Web Specialist" but I feel these are only titles and dont really reflect what one knows. I believe that if ones basics are strong, then one can fill in any shoes! I develop stuff that I feel I enjoy as a user, stuff that matters and stuff that I care about!</p>
 
-<p class="left">A great day for me is when I attend a meeting with my research project advisor to discuss my next big research move in the morning, pitch new ideas to Entrepreneurship Department's Head in the afternoon, listen to Dr. Jason Nieh(in awe of him!) speak about Operating Systems in the evening and code all night while listening to my favorite music.</p>
+<p class="left">A great day for me is when I attend a meeting with my research project advisor to discuss my next big research move in the morning, pitch new ideas to Entrepreneurship Department's Head in the afternoon, listen to Dr. Henning Schulzrinne(in awe of him!) speak about Computer Networks in the evening and code all night while listening to my favorite music.</p>
 
 <p class="left">When I'm not coding or not thinking about the next big idea, I play/ watch Cricket. I played Cricket for MAC Sports Cricket Club and was the Captain of my School's Cricket team in India.</p>
 <h3>Please click my logo below to view my resume.</h3>
@@ -359,7 +359,7 @@
           <div class="col-lg-4 col-sm-4">
             <i class="glyphicon glyphicon-send icon-circle-border"></i>
             <h3>Mail me</h3><br>
-            <blockquote>am4227@columbia.edu</blockquote>
+            <blockquote>am@edulinc.com</blockquote>
           </div>
           <div class="col-lg-4 col-sm-4">
             <i class="glyphicon glyphicon-phone-alt icon-circle-border"></i>
@@ -387,7 +387,7 @@
         </div>
       </div>
         <h3>“RISK MORE THAN OTHERS THINK IS SAFE AND DREAM MORE THAN OTHERS THINK IS PRACTICAL”</h3>
-        <h6>©2015. All rights reserved.</h6>
+        <h6>©2016. All rights reserved.</h6>
       </div>
     </footer>
     <!-- End Footer -->
