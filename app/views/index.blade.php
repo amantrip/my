@@ -245,7 +245,7 @@
             <a href='https://www.linkedin.com/in/akhileshmantripragada#projects' ><img class='left portfolio' src='img/A.png' ></a>
           </div>
            <div class='span3'>
-            <a href='https://www.linkedin.com/in/akhileshmantripragada#projects'><img class='left1 portfolio' src="img/edulinc.png"></a>
+            <a href='https://www.linkedin.com/in/akhileshmantripragada#experience'><img class='left1 portfolio' src="img/edulinc.png"></a>
           </div>
           <div class='span3'>
             <a href='https://www.linkedin.com/in/akhileshmantripragada#projects'><img class='left2 portfolio' src="img/baby.png"></a>
@@ -256,7 +256,7 @@
             <a href='https://www.linkedin.com/in/akhileshmantripragada#projects'><img class='left portfolio' src="img/gps.jpg"></a>
           </div>
           <div class='span3'>
-            <a href='https://www.linkedin.com/in/akhileshmantripragada#projects'><img class='left portfolio' src="img/EHIS.png"></a>
+            <a href='https://www.linkedin.com/in/akhileshmantripragada#projects'><img class='left portfolio' src="img/jsql.png"></a>
           </div>
           <div class='span3'>
             <a href='https://www.linkedin.com/in/akhileshmantripragada#projects'><img class='left2 portfolio' src="img/psap.png"></a>
